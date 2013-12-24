@@ -1,0 +1,15 @@
+title: "/var/log/balo"
+tagline: "Error: uncaught exception: Permission denied to call method PandorasBox.open"
+url: "http://vbalazs.github.io"
+author:
+    name: "Balazs Varga"
+markdown: redcarpet
+pygments: true
+permalink: pretty
+timezone: Europe/Budapest
+
+redcarpet:
+    extensions:
+        - autolink
+        - strikethrough
+        - no_intra_emphasis
