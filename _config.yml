@@ -5,7 +5,7 @@ author:
     name: "Balazs Varga"
 markdown: redcarpet
 pygments: true
-permalink: pretty
+permalink: /:year/:month/:title.html
 timezone: Europe/Budapest
 
 redcarpet:
