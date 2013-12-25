@@ -1,0 +1,16 @@
+.masthead h1 {
+  font: normal bold 32px 'PT mono', sans-serif;
+}
+
+.masthead .lead {
+  color: orange;
+  font: italic 22px 'PT mono', sans-serif;
+}
+
+a {
+  color: grey;
+}
+
+.meta .date {
+  color: grey;
+}
