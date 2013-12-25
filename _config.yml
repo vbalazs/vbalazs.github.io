@@ -6,6 +6,8 @@ author:
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title.html
+paginate_path: 'page/:num'
+paginate: 2
 timezone: Europe/Budapest
 
 redcarpet:
