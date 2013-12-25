@@ -43,7 +43,6 @@ DROPBOX_APP_SECRET=...
 ```
 
 <div>
-<br/>
 Then add them with set-env command:
 </div>
 
@@ -52,7 +51,6 @@ $ rhc set-env my/dir/openshift-env-vars -a myappname
 ```
 
 <div>
-<br/>
 Of course you shouldn’t commit this file to any repository.
 </div>
 
@@ -67,7 +65,6 @@ $ env | grep DROPBOX
 ```
 
 <div>
-<br/>
 If you were connected to ssh while adding the variables, you should reconnect or check them from <i>irb</i>.
 <br/><br/>
 </div>
