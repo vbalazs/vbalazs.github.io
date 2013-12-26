@@ -1,5 +1,5 @@
 title: "/var/log/balo"
-tagline: "Error: uncaught exception: Permission denied to call method PandorasBox.open"
+tagline: "Permission denied to call method PandorasBox.open"
 url: "http://vbalazs.github.io"
 author:
     name: "Balazs Varga"
