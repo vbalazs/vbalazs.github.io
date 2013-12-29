@@ -3,7 +3,7 @@ layout: post
 title:  "Opel Astra G (classic II) audió rendszere II. rész"
 date:   2010-08-19 16:11:00
 category: auto
-tags: ajtó, astra, audió, classic, csatlakozó, hangszóró, kábel, opel
+tags: [ajtó, astra, audió, classic, csatlakozó, hangszóró, kábel, opel]
 ---
 
 <div style="text-align: justify;">Az <a href="http://var-log-balo.blogspot.com/2010/08/opel-astra-g-classic-ii-gyari-audio.html">előző részben</a> ismertettem a körülményeket és a problémát, miszerint hátulra utólag hangszórót csak drága szervízköltséggel lehet.</div><div style="text-align: justify;">A gond az, hogy a hangszórók csak a hátsó ajtóig vannak elvezetve, de a csatlakozóból hiányoznak a tüskék. Gányolósabb kollégák azt tanácsolták, hogy hákoljam bele házilag, de én minél tovább szeretném megtartani az autót a gyári formájában. Szintén a bontót hívtam segítségül (egyébként <a href="http://opelbontottalkatresz.hu/">őket</a>&nbsp;ajánlom, nagyon korrektek!), ahonnan sikerült közép hangszórókat 2000 Ft/db áron, magas hangsugárzókat&nbsp;1000 Ft/db&nbsp;(ugyanolyanok mint elöl),&nbsp;hátsó kábelkötegeket szerezni 2000 Ft/db áron. Hab a tortán, hogy sikerült full extrás darabokat beszerezni: az elektromos ablak és az oldallégzsák kábelei, tüskéi is benne vannak :-) ezek ugyan nekünk nincsenek kihasználva, de G Astrában igazi kuriózum ;) Ha az olvasónak hátul is elektromos ablakok vannak, akkor sajnos a kábelkötegek beszerzése nehezebb lehet, mi csak szerencsések voltunk. Fontos megjegyezni, hogy a biztonságunk érdekében, <i>ha az autóban van hátul légzsák, ezt a műveletet <b>végeztessük szakszervízben</b>!</i></div><div style="text-align: justify;"><br />

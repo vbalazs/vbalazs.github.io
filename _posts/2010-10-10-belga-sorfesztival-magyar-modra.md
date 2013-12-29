@@ -3,7 +3,7 @@ layout: post
 title:  "Belga sörfesztivál - magyar módra"
 date:   2010-10-10 21:26:00
 category: kultura
-tags: belga sör, budapest, fesztivál, kultúra, múzeum
+tags: [belga sör, budapest, fesztivál, kultúra, múzeum]
 ---
 
 <p style="text-align: justify;">

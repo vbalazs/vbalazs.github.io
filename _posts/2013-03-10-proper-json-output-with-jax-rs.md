@@ -3,7 +3,7 @@ layout: post
 title:  "Proper JSON output with JAX-RS"
 date:   2013-03-10 12:51:00
 category: java
-tags: coding, english, java, jax-rs, json, rest, webservice
+tags: [coding, english, java, jax-rs, json, rest, webservice]
 ---
 
 <div>

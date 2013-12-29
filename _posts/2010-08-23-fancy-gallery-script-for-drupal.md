@@ -3,7 +3,7 @@ layout: post
 title:  "Fancy gallery script for Drupal"
 date:   2010-08-23 13:06:00
 category: drupal
-tags: cms, colorbox, drupal, english, gallery, javascript, jquery, lightbox, php, pwa
+tags: [cms, colorbox, drupal, english, gallery, javascript, jquery, lightbox, php, pwa]
 ---
 
 <div style="text-align: justify;">The Drupal is one of the most popular CMSs on the Internet. We often make sites, where we have to give the opportunity to the <i>less advanced users to edit</i> the contents of the nodes. The procedure of these modifications <i>should be</i> as simple as possible.</div><div style="text-align: justify;">In most cases, our users would like to get a gallery with <b>nice effects</b> and <b>modest manageability</b>. This feature doesn’t come with Drupal 6, <i>it does not support</i> galleries well. Sure we can do a lot of magic with modules and CCKs, but it is a nightmare and anything we get as result is complicated to manage and maintain.</div><div style="text-align: justify;"><br />

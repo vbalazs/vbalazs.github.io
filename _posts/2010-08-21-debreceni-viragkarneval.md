@@ -3,7 +3,7 @@ layout: post
 title:  "Debreceni virágkarnevál"
 date:   2010-08-21 14:30:00
 category: kultura
-tags: Alföld, Debrecen, Hortobágy, híd, old timer, veterán, virágkarnevál, vásár
+tags: [Alföld, Debrecen, Hortobágy, híd, old timer, veterán, virágkarnevál, vásár]
 ---
 
 <div style="text-align: justify;">Ott voltunk.</div><div style="text-align: justify;"><br />

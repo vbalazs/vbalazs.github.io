@@ -3,7 +3,7 @@ layout: post
 title:  "Opel Astra G (classic II) audió rendszere I. rész"
 date:   2010-08-10 00:42:00
 category: auto
-tags: ajtó, astra, audió, classic, csatlakozó, hangszóró, kábel, opel
+tags: [ajtó, astra, audió, classic, csatlakozó, hangszóró, kábel, opel]
 ---
 
 Adott egy 2008-as modellévű Opel Astra G, amibe gyárilag nem szereltek rádiót. A gyári hifi egyrészt nagyon drága (százezres nagyságrend), másrészt, ha lekötöd az akksi sarujait akkor lezár és csak szervízben tudják a kódját, amivel ismét működésre lehet bírni. Ennek hátrányait nem akarom ecsetelni.<br />

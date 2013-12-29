@@ -3,7 +3,7 @@ layout: post
 title:  "Csökkentsd a várólistádat 2012"
 date:   2011-12-21 22:46:00
 category: kultura
-tags: kultúra, könyvek, moly, olvasás, várólista
+tags: [kultúra, könyvek, moly, olvasás, várólista]
 ---
 
 <div style="text-align: justify; font-family: Arial, Helvetica, sans-serif;">

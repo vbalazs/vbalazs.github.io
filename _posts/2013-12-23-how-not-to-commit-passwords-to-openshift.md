@@ -3,7 +3,7 @@ layout: post
 title:  "How not to commit passwords to OpenShift's repository"
 date:   2013-12-23 13:05:00
 category: openshift
-tags: best practice, english, environment variables, openshift, paas, password, red hat, ruby, secret key, security, yml
+tags: [best practice, environment variables, openshift, paas, password, red hat, ruby, secret key, security, yml]
 ---
 
 <div>

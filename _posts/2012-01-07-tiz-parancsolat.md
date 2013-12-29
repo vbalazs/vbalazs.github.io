@@ -3,7 +3,7 @@ layout: post
 title:  "Tíz parancsolat"
 date:   2012-01-07 21:28:00
 category: kultura
-tags: fizika, kultúra, posterous, Szilárd Leó, tíz parancsolat
+tags: [fizika, kultúra, posterous, Szilárd Leó, tíz parancsolat]
 ---
 
 <div style="text-align: justify;">

@@ -3,7 +3,7 @@ layout: post
 title:  "Custom ‘Follow’ button on Blogger"
 date:   2010-11-10 22:09:00
 category: web
-tags: blogger, custom follow button, english, fancy, google
+tags: [blogger, custom follow button, english, fancy, google]
 ---
 
 Lot of Blogger member use the “<i>Followers</i>” gadget to display readers who follow his/her blog in the Blogger’s system.<br />

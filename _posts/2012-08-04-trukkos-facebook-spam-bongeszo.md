@@ -3,7 +3,7 @@ layout: post
 title:  "Trükkös facebook spam - böngésző kiterjesztéssel"
 date:   2012-08-04 13:32:00
 category: web
-tags: biztonság, böngészők, chrome, facebook, firefox, kiegészítő, plugin, spam
+tags: [biztonság, böngészők, chrome, facebook, firefox, kiegészítő, plugin, spam]
 ---
 
 Általában nem írnék meg egy erről szóló bejegyzést, mert minden bokorban terem már egy valamilyen módon spamelő vagy kémkedő alkalmazás. Egy ismerősöm azzal keresett meg, hogy spam üzenetek jelennek meg a falán, amikben random ismerősök vannak betagelve. Gondoltam megint egy spammer facebook alkalmazás, de állította, hogy már minden alkalmazást kitörölt. Nekem is gyanús volt, hogy a feltöltött képek és bejegyzések a saját nevével érkeznek.<br />

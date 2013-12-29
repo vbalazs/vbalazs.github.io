@@ -3,7 +3,7 @@ layout: post
 title:  "Slow tty console in VirtualBox"
 date:   2010-08-31 16:53:00
 category: virtualization
-tags: clipboard, console, english, fluxbox, linux, terminal, ubuntu, virtualbox, windows
+tags: [clipboard, console, english, fluxbox, linux, terminal, ubuntu, virtualbox, windows]
 ---
 
 <b>Host OS</b>: Windows 7 x86<br />

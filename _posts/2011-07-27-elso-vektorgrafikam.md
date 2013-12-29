@@ -3,7 +3,7 @@ layout: post
 title:  "Első vektorgrafikám"
 date:   2011-07-27 23:41:00
 category: grafika
-tags: boy, fun, girl, grafika, graphics, man, note, sound, svg, woman
+tags: [boy, fun, girl, grafika, graphics, man, note, sound, svg, woman]
 ---
 
 Ezt a mintát egy énekes pólóján láttam egy&nbsp;<a href="http://youtu.be/EkHTsc9PU2A">videoklipjében</a>.<br />
