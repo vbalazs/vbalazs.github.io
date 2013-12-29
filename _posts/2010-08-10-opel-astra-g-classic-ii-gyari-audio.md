@@ -17,4 +17,4 @@ Ha ezzel megvagyunk, de&nbsp;vannak utasaink hátul is, akik szintén Mozartra v
 <br />
 Jogosan merül fel az olvasóban, hogy akkor tegyünk hátulra is hangsugárzókat és az autóban ismét béke honol. Az ajtókban látszik a hangszórók helye, a burkolatot levéve jön az újabb csalódás: ha nem kértünk gyári hifit, nem fogunk hangszóró vezetéket és csatlakozót találni, pedig a rádió felőli csatlakozóban be van kötve. A leleményes fórumozó&nbsp;kollégák kimérték, hogy a hátsó ajtóig vitték el ezeket a vezetékeket: ha kihúzzuk az ajtó csatlakozót, akkor az oszlop felőli hatlyukas sorban a két szélső a közép sugárzó. Az ajtó felőli csatlakozót megnézve észrevehetjük, hogy, ezeknek a tüskéi (is) hiányoznak. Ez maga a feketeleves, ugyanis ahhoz, hogy hátulra szereljünk hangszórókat az egész ajtó kábelkötegét cserélni kell.<br />
 <br />
-Ennek mikéntjét olvashatod el a <a href="http://var-log-balo.blogspot.com/2010/08/opel-astra-g-classic-ii-audio-rendszere.html">II. részben</a>.
+Ennek mikéntjét olvashatod el a <a href="/2010/08/opel-astra-g-classic-ii-audio-rendszere.html">II. részben</a>.
