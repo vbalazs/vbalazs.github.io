@@ -28,6 +28,14 @@
   color: grey;
 }
 
+.related {
+  padding-top: 10px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
 /* fonts */
 
 @font-face {
@@ -65,4 +73,41 @@
   font-style: normal;
   font-weight: 400;
   src: local('PT Mono'), local('PTMono-Regular'), url(/assets/fonts/ptmono-v1-dMra6Jbp4dctDCd8lX4tlg.woff) format('woff');
+}
+
+div.custom-post-share-buttons {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+div.custom-post-share-buttons a {
+  margin-right: 10px;
+  padding: 5px;
+  font-family: 'Open Sans', Arial, serif;
+  color: rgba(119, 102, 90, 0.72);
+  text-decoration: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+div.custom-post-share-buttons a:hover {
+  cursor: pointer;
+  font-family: 'Open Sans', Arial, serif;
+  text-decoration: none;
+  background-color:  #2D80EB; /*#a5c63b;*/
+  color: #ffffff;
+  -webkit-transition-duration: .4s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-duration: .4s;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-property: background color;
+  -o-transition-duration: .4s;
+  -o-transition-timing-function: ease-out;
+  -ms-transition-property: background color;
+  -ms-transition-duration: .4s;
+  -ms-transition-timing-function: ease-out;
+  transition-property: background color;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
+  border-radius: 5px;
 }

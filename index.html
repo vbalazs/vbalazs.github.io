@@ -11,6 +11,21 @@ layout: default
       <div class="content">
           {{ post.content }}
       </div>
+
+      <div class="custom-post-share-buttons">
+        <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{post.url}}" target="_blank">
+      Facebook</a>
+        <a href="https://twitter.com/share?text={{post.title}}&amp;url={{site.url}}{{post.url}}" target="_blank">
+      Twitter</a>
+        <a href="https://plus.google.com/share?url={{site.url}}{{post.url}}" target="_blank">Google+</a>
+      </div>
+
+      <div class="tags">
+        Tags:
+        {% for tag in post.tags %}
+            {{tag}},
+        {% endfor %}
+      </div>
   </div>
 {% endfor %}
 
