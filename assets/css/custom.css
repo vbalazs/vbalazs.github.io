@@ -7,9 +7,22 @@
   font: italic 22px 'PT mono', sans-serif;
 }
 
-a {
+.post h1 a {
   color: grey;
 }
+
+.post h1 a:visited {
+  color: grey;
+}
+
+.content a {
+  color: #2D80EB;
+}
+
+.content a:visited {
+  color: #ACACAC;
+}
+
 
 .meta .date {
   color: grey;
