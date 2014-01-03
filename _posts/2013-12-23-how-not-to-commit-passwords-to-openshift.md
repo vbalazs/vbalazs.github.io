@@ -19,7 +19,7 @@ That means (almost<sup>1</sup>) everything has to be pushed to the repository. W
 The nice thing is, you can easily insert these variables into yml files, so your database config can be look like this:
 </div>
 
-```yml
+```yaml
 production:
   adapter: mysql2
   database: <%= ENV['OPENSHIFT_APP_NAME'] %>
