@@ -1,6 +1,7 @@
 title: "/var/log/balo"
 tagline: "Permission denied to call method PandorasBox.open"
 url: "http://blog.vbalazs.me"
+feed: "http://feeds.feedburner.com/var-log-balo"
 author:
     name: "Balazs Varga"
 markdown: redcarpet
