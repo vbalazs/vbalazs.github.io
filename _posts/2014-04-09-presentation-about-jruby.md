@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My presentation about JRuby"
-date:   2014-04-09 22:54:00
+date:   2014-04-09 23:13:00 CEST
 category: jruby
 tags: [ruby, jruby, meetup, budapestrb, talks]
 ---
