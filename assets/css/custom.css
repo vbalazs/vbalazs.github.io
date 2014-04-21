@@ -41,45 +41,6 @@
   margin-bottom: 20px;
 }
 
-/* fonts */
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(/assets/fonts/opensans-v6-DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(/assets/fonts/opensans-v6-u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/assets/fonts/opensans-v6-MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/assets/fonts/opensans-v6-k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/assets/fonts/opensans-v6-xjAJXh38I15wypJXxuGMBtIh4imgI8P11RFo6YPCPC0.woff) format('woff');
-}
-@font-face {
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('PT Mono'), local('PTMono-Regular'), url(/assets/fonts/ptmono-v1-dMra6Jbp4dctDCd8lX4tlg.woff) format('woff');
-}
-
 div.custom-post-share-buttons {
     margin-bottom: 25px;
     margin-top: 25px;
