@@ -21,9 +21,7 @@ layout: default
 
   <div class="tags">
     Tags:
-    {% for tag in page.tags %}
-        {{tag}},
-    {% endfor %}
+    {{ page.tags | array_to_sentence_string }}
   </div>
 </div>
 
