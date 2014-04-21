@@ -25,19 +25,21 @@ layout: default
   </div>
 </div>
 
-<div class="related">
-  <h2>More posts in '{{page.categories.first}}' category</h2>
-  <ul class="related-posts">
-    {% for post in site.categories[page.categories.first] %}
-      {% if page.title != post.title %}
-        <li>
-          <h3>
-            <small>{{ post.date | date_to_string }}</small> &raquo;
-            <a href="{{ post.url }}">{{ post.title }}
-            </a>
-          </h3>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+{% if site.categories[page.categories.first].size > 1 %}
+  <div class="related">
+    <h2>More posts in '{{page.categories.first}}' category</h2>
+    <ul class="related-posts">
+      {% for post in site.categories[page.categories.first] %}
+        {% if page.title != post.title %}
+          <li>
+            <h3>
+              <small>{{ post.date | date_to_string }}</small> &raquo;
+              <a href="{{ post.url }}">{{ post.title }}
+              </a>
+            </h3>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
