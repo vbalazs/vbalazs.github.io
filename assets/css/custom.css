@@ -1,10 +1,15 @@
 .masthead h1 {
-  font: normal bold 32px 'PT mono', sans-serif;
+  font: normal bold 24px 'PT mono', sans-serif;
 }
 
 .masthead .lead {
   color: orange;
-  font: italic 22px 'PT mono', sans-serif;
+  font: italic 20px 'PT mono', sans-serif;
+}
+
+.colophon-links li {
+  margin-top: 7px;
+  font-size: 20px;
 }
 
 .post h1 a {
