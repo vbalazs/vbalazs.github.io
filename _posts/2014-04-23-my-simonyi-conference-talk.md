@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Simonyi Conference talk"
-date:   2014-04-24 19:15:00 CEST
+date:   2014-04-23 19:15:00 CEST
 category: university
 tags: [openjdk, graal, truffle, jruby, interpreters, talks]
 ---
