@@ -12,7 +12,7 @@ an existing source code repository which will be copied and used for the
 application. There is also an input for the branch or tag (or SHA) if the
 head of master is not adequate.
 
-The second, less known solution is to use the `rhc` (**R**ed **H**at **C**loud)
+The second, less known solution is to use the `rhc` ( **R**ed **H**at **C**loud)
 command line tool.
 
 It has a `--from-code` option and you can also specify git ref however I didn't
