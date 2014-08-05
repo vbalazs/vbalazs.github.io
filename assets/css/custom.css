@@ -12,6 +12,10 @@
   font-size: 20px;
 }
 
+.post {
+  text-align: justify;
+}
+
 .post h1 a {
   color: grey;
 }
