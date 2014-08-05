@@ -77,3 +77,7 @@ div.custom-post-share-buttons a:hover {
   transition-timing-function: ease-out;
   border-radius: 5px;
 }
+
+.code .line-numbers {
+  display: none;
+}

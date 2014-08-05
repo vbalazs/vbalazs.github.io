@@ -5,15 +5,20 @@ category: drupal
 tags: [cms, colorbox, drupal, english, gallery, javascript, jquery, lightbox, php, pwa]
 ---
 
-<div style="text-align: justify;">The Drupal is one of the most popular CMSs on the Internet. We often make sites, where we have to give the opportunity to the <i>less advanced users to edit</i> the contents of the nodes. The procedure of these modifications <i>should be</i> as simple as possible.</div><div style="text-align: justify;">In most cases, our users would like to get a gallery with <b>nice effects</b> and <b>modest manageability</b>. This feature doesn’t come with Drupal 6, <i>it does not support</i> galleries well. Sure we can do a lot of magic with modules and CCKs, but it is a nightmare and anything we get as result is complicated to manage and maintain.</div><div style="text-align: justify;"><br />
-</div><div style="text-align: justify;">I have searched way too much for the solution, so I just made a decision: I will use Google Picasa Webalbums. I found a <a href="http://sourceforge.net/projects/pwa/">javascript library</a> on SourceForge, that downloads the Picasa’s rss feed and creates the list of the albums and images. The result is OK, but it gives a grim sight. We can redesign it by overwriting the js’s proper sections. I have modified the code:</div><ul><li style="text-align: justify;">it became easily configurable (with language, and config. constants)</li>
-<li style="text-align: justify;">supports the <a href="http://drupal.org/project/colorbox">Colorbox</a> Drupal module</li>
-<li style="text-align: justify;">it does not interfere with jQuery anymore</li>
-</ul><br />
-<div style="text-align: justify;">Modified pwa library (right click, save as...): <a href="http://dl.dropbox.com/u/3092188/blog/pwa-no-picasa-links.js">download</a></div><div style="text-align: justify;"><br />
-</div><div style="text-align: justify;">Insert the following code into a new Drupal node:</div>
+The Drupal is one of the most popular CMSs on the Internet. We often make sites, where we have to give the opportunity to the _less advanced users to edit_ the contents of the nodes. The procedure of these modifications *should be* as simple as possible.
 
-```html
+In most cases, our users would like to get a gallery with **nice effects** and **modest manageability**. This feature doesn’t come with Drupal 6, _it does not support_ galleries well. Sure we can do a lot of magic with modules and CCKs, but it is a nightmare and anything we get as result is complicated to manage and maintain.
+
+I have searched way too much for the solution, so I just made a decision: I will use Google Picasa Webalbums. I found a [javascript library](http://sourceforge.net/projects/pwa/) on SourceForge, that downloads the Picasa’s rss feed and creates the list of the albums and images. The result is OK, but it gives a grim sight. We can redesign it by overwriting the js’s proper sections. I have modified the code:
+* it became easily configurable (with language, and config. constants)
+* supports the <a href="http://drupal.org/project/colorbox">Colorbox</a> Drupal module
+* it does not interfere with jQuery anymore
+
+Modified pwa library (right click, save as...): [download](http://dl.dropbox.com/u/3092188/blog/pwa-no-picasa-links.js)
+
+Insert the following code into a new Drupal node:
+
+~~~html
 <script type="text/javascript">
   username='yourGoogleAccountName';
   photosize='800';
@@ -25,6 +30,7 @@ tags: [cms, colorbox, drupal, english, gallery, javascript, jquery, lightbox, ph
 <script type="text/javascript">
     $("a[rel='myAlbum']").colorbox();
 </script>
-```
-<div style="text-align: justify;">You should see the result: <a href="http://ezk.bme.hu/ezk/galeria">PWA Gallery in Drupal</a><br />
-Your questions and comments are welcome! :)</div>
+~~~
+
+You should see the result: [PWA Gallery in Drupal](http://ezk.bme.hu/ezk/galeria)
+Your questions and comments are welcome! :)

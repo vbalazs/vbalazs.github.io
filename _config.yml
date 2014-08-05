@@ -4,18 +4,12 @@ url: "http://blog.vbalazs.me"
 feed: "http://feeds.feedburner.com/var-log-balo"
 author:
     name: "Balazs Varga"
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /:year/:month/:title.html
 paginate_path: 'page/:num'
 paginate: 2
 timezone: Europe/Budapest
-
-redcarpet:
-    extensions:
-        - autolink
-        - strikethrough
-        - no_intra_emphasis
 
 gems:
   - jekyll-sitemap

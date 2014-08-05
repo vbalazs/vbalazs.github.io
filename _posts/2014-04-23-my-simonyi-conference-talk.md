@@ -42,4 +42,3 @@ Then I faced the next problem: my 25 minutes barrier. I needed to be careful abo
 I feel the presentation could be better but I got some promising feedback. Hopefully I shed light on the bright future of JVM and more people will contribute to these projects.
 
 I'd like to thank the reviews and support to Szabolcs and Tamas as well as the conference technical help to [Gabor](https://twitter.com/ghaabor).
-
