@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Tíz parancsolat"
 date:   2012-01-07 21:28:00
 category: kultura

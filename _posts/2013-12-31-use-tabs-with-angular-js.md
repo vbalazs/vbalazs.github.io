@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Use tabs with angular.js"
 date:   2013-12-31 12:01:00
 category: angularjs

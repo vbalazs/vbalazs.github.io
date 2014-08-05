@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Create application from a specified git SHA on Openshift"
 date:   2014-04-26 15:05:00 CEST
 category: openshift

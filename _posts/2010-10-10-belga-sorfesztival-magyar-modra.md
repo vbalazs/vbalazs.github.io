@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Belga sörfesztivál - magyar módra"
 date:   2010-10-10 21:26:00
 category: kultura

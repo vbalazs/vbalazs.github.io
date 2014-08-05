@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Trükkös facebook spam - böngésző kiterjesztéssel"
 date:   2012-08-04 13:32:00
 category: web

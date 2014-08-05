@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Első vektorgrafikám"
 date:   2011-07-27 23:41:00
 category: grafika

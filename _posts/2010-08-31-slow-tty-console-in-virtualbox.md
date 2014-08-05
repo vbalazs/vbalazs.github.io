@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Slow tty console in VirtualBox"
 date:   2010-08-31 16:53:00
 category: virtualization

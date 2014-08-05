@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Csökkentsd a várólistádat 2012"
 date:   2011-12-21 22:46:00
 category: kultura

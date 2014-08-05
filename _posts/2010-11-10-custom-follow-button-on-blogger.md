@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Custom ‘Follow’ button on Blogger"
 date:   2010-11-10 22:09:00
 category: web

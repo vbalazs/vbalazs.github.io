@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Debreceni virágkarnevál"
 date:   2010-08-21 14:30:00
 category: kultura

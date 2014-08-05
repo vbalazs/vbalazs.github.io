@@ -19,3 +19,12 @@ redcarpet:
 
 gems:
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      author: "balo"
+      layout: "post"

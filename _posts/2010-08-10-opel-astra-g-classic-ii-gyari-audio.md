@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Opel Astra G (classic II) audió rendszere I. rész"
 date:   2010-08-10 00:42:00
 category: auto

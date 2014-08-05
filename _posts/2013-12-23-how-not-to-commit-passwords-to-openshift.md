@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "How not to commit passwords to OpenShift's repository"
 date:   2013-12-23 13:05:00
 category: openshift
