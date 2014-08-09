@@ -1,6 +1,6 @@
 ---
 title:  "Create application from a specified git SHA on Openshift"
-date:   2014-04-26 15:05:00 CEST
+date:   2014-07-26 15:05:00 CEST
 category: openshift
 tags: [openshift, paas, red hat, rhc, command line, git]
 ---
