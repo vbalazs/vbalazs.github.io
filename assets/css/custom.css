@@ -85,3 +85,7 @@ div.custom-post-share-buttons a:hover {
 .code .line-numbers {
   display: none;
 }
+
+.content404 {
+  margin-top: 60px;
+}
