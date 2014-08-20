@@ -5,6 +5,10 @@ feed: "http://feeds.feedburner.com/var-log-balo"
 author:
     name: "Balazs Varga"
 markdown: kramdown
+kramdown:
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
 highlighter: pygments
 permalink: /:year/:month/:title.html
 paginate_path: 'page/:num'
