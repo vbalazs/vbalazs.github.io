@@ -18,7 +18,7 @@ Modified pwa library (right click, save as...): [download](http://dl.dropbox.com
 
 Insert the following code into a new Drupal node:
 
-~~~html
+{% highlight html %}
 <script type="text/javascript">
   username='yourGoogleAccountName';
   photosize='800';
@@ -30,7 +30,7 @@ Insert the following code into a new Drupal node:
 <script type="text/javascript">
     $("a[rel='myAlbum']").colorbox();
 </script>
-~~~
+{% endhighlight %}
 
 You should see the result: [PWA Gallery in Drupal](http://ezk.bme.hu/ezk/galeria)
 Your questions and comments are welcome! :)

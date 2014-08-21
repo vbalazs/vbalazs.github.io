@@ -11,7 +11,7 @@ That means (almost[^1]) everything has to be pushed to the repository. We know t
 
 The nice thing is, you can easily insert these variables into yml files, so your database config can be look like this:
 
-~~~yaml
+{% highlight yaml %}
 production:
   adapter: mysql2
   database: <%= ENV['OPENSHIFT_APP_NAME'] %>
@@ -22,31 +22,31 @@ production:
   socket: <%= ENV['OPENSHIFT_MYSQL_DB_SOCKET'] %>
   encoding: utf8
   pool: 5
-~~~
+{% endhighlight %}
 
 ### What about custom secrets and keys?
 
 Well, you can set custom environment variables with rhc. I made a simple text file with my variables:
 
-~~~bash
+{% highlight bash %}
 DROPBOX_APP_KEY=...
 DROPBOX_APP_SECRET=...
-~~~
+{% endhighlight %}
 
 Then add them with set-env command:
 
-~~~bash
+{% highlight bash %}
 $ rhc set-env my/dir/openshift-env-vars -a myappname
-~~~
+{% endhighlight %}
 
 Of course you shouldn’t commit this file to any repository.
 
 You can test it with rhc:
 
-~~~bash
+{% highlight bash %}
 $ rhc ssh -a myappname
 $ env | grep DROPBOX
-~~~
+{% endhighlight %}
 
 If you were connected to ssh while adding the variables, you should reconnect or check them from <i>irb</i>.
 

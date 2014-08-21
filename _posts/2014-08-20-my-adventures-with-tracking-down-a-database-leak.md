@@ -23,10 +23,10 @@ Okay, not exactly. I designed an experiment to generate thousands of log in oper
 
 #### Run Selenium as standalone with PhantomJS driver
 
-~~~ bash
+{% highlight bash %}
 $ export PATH=$(echo $PATH):/home/balo/apps/phantomjs-1.9.7-linux-x86_64/bin
 $ java -jar selenium-server-standalone-2.42.2.jar
-~~~
+{% endhighlight %}
 
 #### Ruby script which simulates a simple login flow
 
