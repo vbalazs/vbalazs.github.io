@@ -30,7 +30,7 @@ $ java -jar selenium-server-standalone-2.42.2.jar
 
 #### Ruby script which simulates a simple login flow
 
-~~~ ruby
+{% highlight ruby %}
 # encoding: utf-8
 require 'selenium-webdriver'
 
@@ -76,7 +76,7 @@ end
 
 driver = Selenium::WebDriver.for :remote, url: "http://127.0.0.1:4444/wd/hub", desired_capabilities: CAPS
 login_process driver
-~~~
+{% endhighlight %}
 
 #### Call the script above with JMeter OS Process Sampler a few thousand times on 4 threads and wait for failed login operations
 
