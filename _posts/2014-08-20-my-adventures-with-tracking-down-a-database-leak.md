@@ -5,6 +5,8 @@ category: development
 tags: [java, openam, jmeter, selenium, ruby, phantomjs, java]
 ---
 
+_This page was first published on August 20th 2014 and was last updated on September 7th 2014. See the update <a href="#dbpoolissue-update1">below</a>._
+
 Occasionally I still work on the [OpenAM][1] instance of [Kir-Dev][2] because they are transitioning to a custom OAuth2 provider solution and they need support for its plugins I wrote.
 
 ## Few words about my use-case
@@ -101,10 +103,15 @@ I implemented my database connection class as an [AutoCloseable][4]. My mistake 
   </a>
 </div>
 
-I [simplified][5] the code, from now on it initializes the connection in the constructor and fail early if something went wrong.
+I [simplified][5] the code, from now on it initialises the connection in the constructor and fail early if something went wrong.
+
+<a name="dbpoolissue-update1"></a>
+**Update (07 Sept 2014)**: [@aldaris][6] pointed out a bug I introduced with my fix. You can see his PR [here][7]. Thanks!
 
 [1]: http://openam.forgerock.org
 [2]: http://kir-dev.sch.bme.hu/about/
 [3]: http://openam.forgerock.org/openam-documentation/openam-doc-source/doc/admin-guide/index/chap-federation.html#about-federation
 [4]: http://docs.oracle.com/javase/7/docs/api/java/lang/AutoCloseable.html
 [5]: https://github.com/kir-dev/vir-auth/pull/6
+[6]: https://github.com/aldaris
+[7]: https://github.com/kir-dev/vir-auth/pull/7
