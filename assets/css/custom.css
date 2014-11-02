@@ -89,3 +89,8 @@ div.custom-post-share-buttons a:hover {
 .content404 {
   margin-top: 60px;
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
