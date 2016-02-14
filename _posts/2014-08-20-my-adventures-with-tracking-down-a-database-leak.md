@@ -19,20 +19,20 @@ My latest addition was a bigger refactor and an OAuth2 AttributeMapper implement
 
 With the refactor, I introduced a bug which resulted outages caused by the exhaustion of the database connection pool on Tomcat (the container we use for OpenAM). Make things worse, it wasn't a trivial leak: it happened quite often (few days) but not after some specified number of logins.
 
-## DDoS it!
+## DoS it!
 
 Okay, not exactly. I designed an experiment to generate thousands of log in operations with the help of Selenium, PhantomJS and JMeter. I learned a lot on the way - just for a hint from where I started: control Chrome windows with Selenium from a Ruby loop. I improved my setup from 15 ops/min to 50+ ops/min. I ended up with the following:
 
 #### Run Selenium as standalone with PhantomJS driver
 
-{% highlight bash %}
+```shell
 $ export PATH=$(echo $PATH):/home/balo/apps/phantomjs-1.9.7-linux-x86_64/bin
 $ java -jar selenium-server-standalone-2.42.2.jar
-{% endhighlight %}
+```
 
 #### Ruby script which simulates a simple login flow
 
-{% highlight ruby %}
+```ruby
 # encoding: utf-8
 require 'selenium-webdriver'
 
@@ -78,7 +78,7 @@ end
 
 driver = Selenium::WebDriver.for :remote, url: "http://127.0.0.1:4444/wd/hub", desired_capabilities: CAPS
 login_process driver
-{% endhighlight %}
+```
 
 #### Call the script above with JMeter OS Process Sampler a few thousand times on 4 threads and wait for failed login operations
 

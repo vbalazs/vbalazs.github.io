@@ -18,9 +18,9 @@ It has a `--from-code` option and you can also specify git ref however I didn't
 find this in the documentation. Simply append your branch, tag or SHA after the
 git repository, followed by `#` character.
 
-{% highlight bash %}
+```shell
 $ rhc create-app myapp php-5.4 --from-code https://github.com/nick/myapp.git#9fbfc057
-{% endhighlight %}
+```
 
 Be aware that there is a [bug](https://bugzilla.redhat.com/show_bug.cgi?id=1122515)
 which makes this parameter ignored if the name of branch contains `/` character.

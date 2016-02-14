@@ -18,14 +18,14 @@ After login, go to your Blogger Designer and you can copy the ID from your brows
 
 Add or edit a gadget in HTML mode and paste the following code:
 
-{% highlight html %}
+```html
 <img alt="Follow me on Blogger!"
   onclick="window.open('http://www.blogger.com/follow-blog.g?blogID={BLOG_ID}',
      'followblog',
      'height=600, width=600, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');"
   src="http://dl.dropbox.com/u/3092188/blog/icons/blogger-icon.png"
   style="border: 0px; cursor: pointer; width: 32px;" />
-{% endhighlight %}
+```
 
 Replace the **{BLOG_ID}** with your ID.
 Of course you can use this JS snippet for almost every HTML element.  You can observe the outcome as at my first gadget of the panel on the right.

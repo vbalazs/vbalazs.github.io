@@ -7,7 +7,7 @@ tags: [coding, english, java, jax-rs, json, rest, webservice]
 
 I had to develop a <a href="http://en.wikipedia.org/wiki/Representational_state_transfer#RESTful_web_services">REST webservice</a> endpoint recently in our JavaEE application. After we figured out what data the client needs we came to an agreement that we will produce <a href="http://www.json.org/">JSON</a> output. I knew <a href="http://jax-rs-spec.java.net/">JAX-RS</a> can do that, so I simply wrote a method like this:
 
-{% highlight java %}
+```java
 @GET
 @Produces(MediaType.APPLICATION_JSON)
 @Path("/get/{param1}/{param2}")
@@ -21,7 +21,7 @@ public List<ApprovedEntrant> getEntrants(
 
      return entrants;
 }
-{% endhighlight %}
+```
 
 It seems to work as expected but sometimes we noticed weird results with the default JSON serialization of JAX-RS in Glassfish 3 (maybe&nbsp;<a href="http://jersey.java.net/">Jersey</a>?):
 
@@ -32,17 +32,17 @@ Of course, I could import the official <a href="http://json.org/java/">JSON Java
 
 First, I added the new dependency to my webservice project:
 
-{% highlight xml %}
+```xml
 <dependency>
     <groupId>com.fasterxml.jackson.jaxrs</groupId>
     <artifactId>jackson-jaxrs-json-provider</artifactId>
     <version>2.1.4</version>
 </dependency>
-{% endhighlight %}
+```
 
 Then I had to modify my code a bit, but I think quite general and doesn’t contain ugly JSON objects and arrays.
 
-{% highlight java %}
+```java
 private static ObjectMapper mapper = new ObjectMapper();
 
 @GET
@@ -65,4 +65,4 @@ public String getEntrants(
 
      return out;
 }
-{% endhighlight %}
+```
