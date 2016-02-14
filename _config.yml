@@ -5,13 +5,14 @@ feed: "http://feeds.feedburner.com/var-log-balo"
 author:
     name: "Balazs Varga"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:month/:title.html
 paginate_path: 'page/:num'
 paginate: 2
 timezone: Europe/Budapest
 
 gems:
+  - jekyll-paginate
   - jekyll-sitemap
 
 defaults:

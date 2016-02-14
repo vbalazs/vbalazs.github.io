@@ -10,6 +10,7 @@ The Drupal is one of the most popular CMSs on the Internet. We often make sites,
 In most cases, our users would like to get a gallery with **nice effects** and **modest manageability**. This feature doesn’t come with Drupal 6, _it does not support_ galleries well. Sure we can do a lot of magic with modules and CCKs, but it is a nightmare and anything we get as result is complicated to manage and maintain.
 
 I have searched way too much for the solution, so I just made a decision: I will use Google Picasa Webalbums. I found a [javascript library](http://sourceforge.net/projects/pwa/) on SourceForge, that downloads the Picasa’s rss feed and creates the list of the albums and images. The result is OK, but it gives a grim sight. We can redesign it by overwriting the js’s proper sections. I have modified the code:
+
 * it became easily configurable (with language, and config. constants)
 * supports the <a href="http://drupal.org/project/colorbox">Colorbox</a> Drupal module
 * it does not interfere with jQuery anymore
@@ -18,7 +19,7 @@ Modified pwa library (right click, save as...): [download](http://dl.dropbox.com
 
 Insert the following code into a new Drupal node:
 
-{% highlight html %}
+```html
 <script type="text/javascript">
   username='yourGoogleAccountName';
   photosize='800';
@@ -30,7 +31,7 @@ Insert the following code into a new Drupal node:
 <script type="text/javascript">
     $("a[rel='myAlbum']").colorbox();
 </script>
-{% endhighlight %}
+```
 
 You should see the result: [PWA Gallery in Drupal](http://ezk.bme.hu/ezk/galeria)
 Your questions and comments are welcome! :)
