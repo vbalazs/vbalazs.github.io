@@ -1,4 +1,4 @@
-[blog.vbalazs.me](http://blog.vbalazs.me)
+[blog.varga.io](http://blog.varga.io)
 =================
 
 My personal blog
