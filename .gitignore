@@ -3,3 +3,4 @@ _site/
 .ruby-version
 Gemfile*
 .DS_Store
+.jekyll-metadata

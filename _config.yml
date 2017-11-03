@@ -11,7 +11,7 @@ paginate_path: 'page/:num'
 paginate: 2
 timezone: Europe/Budapest
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
