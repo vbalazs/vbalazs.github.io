@@ -1,5 +1,6 @@
 title: "/var/log/balo"
 tagline: "Permission denied to call method PandorasBox.open"
+assets_uri: "https://s3.amazonaws.com/vbalazs-site-assets"
 url: "https://vbalazs.github.io"
 feed: "https://feeds.feedburner.com/var-log-balo"
 author:

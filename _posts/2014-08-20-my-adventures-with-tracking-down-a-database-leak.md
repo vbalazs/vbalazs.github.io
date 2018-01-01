@@ -14,7 +14,7 @@ Occasionally I still work on the [OpenAM][1] instance of [Kir-Dev][2] because th
 My latest addition was a bigger refactor and an OAuth2 AttributeMapper implementation. With this plugin users are able to sign in on [federated][3] sites which still uses OpenAM, through the new OAuth2 provider.
 
 <div align="center">
-  <img src="https://dl.dropboxusercontent.com/u/3092188/blog/2014.08/saml2-oauth2-bridge.png" title="OpenAM as a SAML2-OAuth2 bridge" />
+  <img src="{{ site.assets_uri }}/2014.08/saml2-oauth2-bridge.png" title="OpenAM as a SAML2-OAuth2 bridge" />
 </div>
 
 With the refactor, I introduced a bug which resulted outages caused by the exhaustion of the database connection pool on Tomcat (the container we use for OpenAM). Make things worse, it wasn't a trivial leak: it happened quite often (few days) but not after some specified number of logins.
@@ -88,8 +88,8 @@ Parameter: /home/balo/code/src/github.com/vbalazs/vir-auth/do-logins.rb
 ~~~
 
 <div align="center">
-  <a href="https://dl.dropboxusercontent.com/u/3092188/blog/2014.08/jmeter-auth-graph_results.png">
-    <img alt="jmeter graph results" src="https://dl.dropboxusercontent.com/u/3092188/blog/2014.08/jmeter-auth-graph_results.png" title="~50 login operation/minute is not bad from a notebook" width="700" />
+  <a href="{{ site.assets_uri }}/2014.08/jmeter-auth-graph_results.png">
+    <img alt="jmeter graph results" src="{{ site.assets_uri }}/2014.08/jmeter-auth-graph_results.png" title="~50 login operation/minute is not bad from a notebook" width="700" />
   </a>
 </div>
 
@@ -99,7 +99,7 @@ I implemented my database connection class as an [AutoCloseable][4]. My mistake 
 
 <div align="center">
   <a href="https://twitter.com/nvining/status/500094840865304577">
-    <img src="https://dl.dropboxusercontent.com/u/3092188/blog/2014.08/twitter_nvining_status_500094840865304577.png" title="This quote was late for me :)" />
+    <img src="{{ site.assets_uri }}/2014.08/twitter_nvining_status_500094840865304577.png" title="This quote was late for me :)" />
   </a>
 </div>
 

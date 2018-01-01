@@ -12,7 +12,7 @@ Google doesn’t provide any way  to display “_Follow_” button only, without
 
 After login, go to your Blogger Designer and you can copy the ID from your browser’s address bar.
 
-<img border="0" src="http://dl.dropbox.com/u/3092188/blog/2010.11/browser-bar.png" width="500" />
+<img border="0" src="{{ site.assets_uri }}/2010.11/browser-bar.png" width="500" />
 
 **Paste button to your blog**
 
@@ -23,7 +23,7 @@ Add or edit a gadget in HTML mode and paste the following code:
   onclick="window.open('http://www.blogger.com/follow-blog.g?blogID={BLOG_ID}',
      'followblog',
      'height=600, width=600, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');"
-  src="http://dl.dropbox.com/u/3092188/blog/icons/blogger-icon.png"
+  src="{{ site.assets_uri }}/icons/blogger-icon.png"
   style="border: 0px; cursor: pointer; width: 32px;" />
 ```
 

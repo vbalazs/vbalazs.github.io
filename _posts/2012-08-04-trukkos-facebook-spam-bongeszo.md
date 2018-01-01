@@ -17,8 +17,8 @@ A posztban lévő link egy <a href="http://dl.dropbox.com/u/95861912/help.html">
 <i>(Sajnos erről képernyőképet nem készítettem először, azóta pedig a dropbox letiltotta, mert elérte a forgalmi korlátot. Ha holnap működik még az oldal, akkor frissítem a bejegyzést, addig higgyétek el nekem :-)</i><br />
 <br />
 Többek között megvizsgálja a böngészőt és letölt egy ennek megfelelő bővítményt (Chrome és Firefox érintett, a többit átirányítja egy másik oldalra).<br />
-Kicsit utánajártam a Crome bővítménynek (<a href="http://dl.dropbox.com/u/3092188/blog/2012.08/youtube.crx.deleteThis">letölthető itt</a>, <a href="http://dl.dropbox.com/u/3092188/blog/2012.08/plugin.xpi.deleteThis">Firefox bővítmény itt</a>), egy "<i>YouTube Premium Video</i>" kiterjesztésnek álcázza magát, valód Youtube ikonokkal.<br />
-Az analytics (<i>UA-31861921-1</i>) és whois.among.us (<i>3bcmg6ofjwms</i>) statisztikákon kívül még behivatkozik egy, a konkrét spamelést és terjesztést végző javascriptet:&nbsp;<a href="http://feedbuzz.info/js.php">http://feedbuzz.info/js.php</a> (ha időközben elérhetetlenné válna, a kimenet <a href="http://dl.dropbox.com/u/3092188/blog/2012.08/js.php.html">letölthető itt</a>)<br />
+Kicsit utánajártam a Crome bővítménynek (<a href="{{ site.assets_uri }}/2012.08/youtube.crx.deleteThis">letölthető itt</a>, <a href="{{ site.assets_uri }}/2012.08/plugin.xpi.deleteThis">Firefox bővítmény itt</a>), egy "<i>YouTube Premium Video</i>" kiterjesztésnek álcázza magát, valód Youtube ikonokkal.<br />
+Az analytics (<i>UA-31861921-1</i>) és whois.among.us (<i>3bcmg6ofjwms</i>) statisztikákon kívül még behivatkozik egy, a konkrét spamelést és terjesztést végző javascriptet:&nbsp;<a href="http://feedbuzz.info/js.php">http://feedbuzz.info/js.php</a> (ha időközben elérhetetlenné válna, a kimenet <a href="{{ site.assets_uri }}/2012.08/js.php.html">letölthető itt</a>)<br />
 <br />
 <b><span style="font-size: large;">Hogyan kerüljük el?</span></b><br />
 <br />

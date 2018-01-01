@@ -15,7 +15,7 @@ I have searched way too much for the solution, so I just made a decision: I will
 * supports the <a href="http://drupal.org/project/colorbox">Colorbox</a> Drupal module
 * it does not interfere with jQuery anymore
 
-Modified pwa library (right click, save as...): [download](http://dl.dropbox.com/u/3092188/blog/pwa-no-picasa-links.js)
+Modified pwa library (right click, save as...): [download]({{ site.assets_uri }}/pwa-no-picasa-links.js)
 
 Insert the following code into a new Drupal node:
 
