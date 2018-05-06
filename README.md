@@ -1,4 +1,4 @@
-[vbalazs.github.io](https://vbalazs.github.io)
+[vbalazs.info](https://vbalazs.info)
 =================
 
 My personal blog
