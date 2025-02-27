@@ -1,0 +1,44 @@
+baseURL = 'https://vbalazs.info/'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+theme = 'hugo-bearcub'
+
+title = '/var/log/balo'
+author = 'Balazs Varga'
+
+enableRobotsTXT = true
+
+uglyURLs = true
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/posts'
+    weight = 20
+
+[permalinks]
+  posts = '/:year/:month/:slug'
+
+[taxonomies]
+  language = 'languages'
+
+[params]
+  description = 'Software engineer, environmentalist, wannebe space pirate'
+  favicon = 'icons/octobiwan-256p.png'
+  title = '/var/log/balo'
+  hideMadeWithLine = true
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "atom"

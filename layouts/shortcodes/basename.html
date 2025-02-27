@@ -1,0 +1,5 @@
+{{- with $.Get "path" }}
+  {{- with $i := or ($.Page.Resources.Get .) (resources.Get .) }}
+    {{ .RelPermalink }}
+  {{- end }}
+{{- end }}

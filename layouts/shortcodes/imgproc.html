@@ -1,0 +1,40 @@
+{{- /*
+  Renders the given image using the given process specification.
+  https://github.com/gohugoio/hugoDocs/blob/master/layouts/shortcodes/imgproc.html
+
+  @param {string} path The path to the image, either a page resource or a global resource.
+  @param {string} spec The image processing specification.
+  @param {string} alt The alt attribute of the img element.
+
+  @returns template.HTML
+
+  @example {{< imgproc path="sunset.jpg" spec="resize 300x" alt="A sunset" /
+>}}
+*/}}
+{{- with $.Get "path" }}
+  {{- with $i := or ($.Page.Resources.Get .) (resources.Get .) }}
+    {{- with $spec := $.Get "spec" }}
+      {{- with $i.Process . }}
+        <figure style="{{ $.Get `style` }}">
+          <img
+            src="{{ .RelPermalink }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+            alt="{{ $.Get `alt` }}"
+            title="{{ $.Get `title` }}"
+            >
+          <figcaption class="not-prose text-sm">
+            {{- with $.Inner }}
+              <i>{{ . }}</i>
+            {{- end }}
+          </figcaption>
+        </figure>
+      {{- end }}
+
+    {{- end }}
+  {{- else }}
+    {{- errorf "The %q shortcode was unable to find %q. See %s" $.Name . $.Position }}
+  {{- end }}
+{{- else }}
+  {{- errorf "The %q shortcode requires a 'path' argument indicating the image path. The image must be a page resource or a global resource. See %s" $.Name $.Position }}
+{{- end }}

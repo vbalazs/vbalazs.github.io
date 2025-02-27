@@ -1,6 +1,3 @@
-_site/
-.bundle
-.ruby-version
-Gemfile*
+public/
+resources/
 .DS_Store
-.jekyll-metadata
