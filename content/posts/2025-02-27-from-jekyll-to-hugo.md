@@ -1,6 +1,5 @@
 +++
 date = 2025-02-27T22:48:38+01:00
-draft = true
 title = 'From Jekyll to Hugo'
 tags = ['no-nonsense', 'hugo', 'blogging']
 keywords = ['']
