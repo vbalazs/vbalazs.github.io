@@ -25,6 +25,7 @@ uglyURLs = true
 
 [taxonomies]
   language = 'languages'
+  tags = 'tags'
 
 [params]
   description = 'Software engineer, environmentalist, wannebe space pirate'
