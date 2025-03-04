@@ -8,6 +8,6 @@ layout = 'home'
 ## Software engineer / SRE, environmentalist, wannebe space pirate.
 
 I mostly write about tech and other random topics in [English](languages/en.html), or occasionally
-in [Hungarian / Magyarul](http://localhost:1313/languages/hu.html).
+in [Hungarian / Magyarul](languages/hu.html).
 
 I'm on [GitHub](https://github.com/vbalazs), [Mastodon](https://mastodon.social/@vbalazs), and [LinkedIn](https://www.linkedin.com/in/vbalazs/).
